@@ -2,6 +2,10 @@ import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 
+import  "./Topics/Functions2"
+
+
+
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">
@@ -12,5 +16,3 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </a>
   </div>
 `
-
-console.log('Hola Mundo')
