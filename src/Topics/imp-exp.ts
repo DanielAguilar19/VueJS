@@ -1,7 +1,7 @@
 import heroes, {type owner} from "../data/heroes"
 
-const getHeroByID = (id : number) => {
-    return heroes.find(hero => hero.id === id) ?? {}//Si no existe retorna un arreglo vacio
+export const getHeroByID = (id : number) => {
+    return heroes.find(hero => hero.id === id)
 }
 
 const getHeroByOwner = (casa : owner) => {
