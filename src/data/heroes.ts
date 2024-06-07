@@ -30,7 +30,7 @@ const heroes = [
 export interface Hero {
     id: number;
     name: string;
-    owner: owner; //o tambien owners: 'DC'|'Marvel' si sabemos que no va a crecer
+    owner: string; //o tambien owners: 'DC'|'Marvel' si sabemos que no va a crecer
 }
 //Tipo de dato personalizado
 export type owner = 'DC' | 'Marvel';
